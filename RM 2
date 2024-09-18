@@ -1,0 +1,42 @@
+Practical no:2
+
+Aim: Introduction to Latex
+
+Code:
+
+\documentclass{article}
+\usepackage{graphicx}
+\begin{document}
+\title{Tables and Figures in Latex}
+\maketitle
+\section{Tables in LaTeX}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Roll No. &FName&LName \\
+\hline
+1 &Divya& More\\
+2 &Gauri&Patil\\
+3 & Aanchal&Yadav\\
+4 &Kreepa&Kadu\\
+\hline
+\end{tabular}
+\end{center}
+\caption{Student details)
+\label{tab:tab1}
+\end{table}
+we can refer to Table \ref{tab:tab1}
+\section{Figures in LaTeX}
+
+\begin{figure}[h!]
+\centering
+
+\includegraphics[width=0.7\textwidth]{prism.jpg}
+\caption{A Prism}
+\label{fig:fig1}
+\end{figure}
+
+we can refer to Table \ref{tab:tab1} and Figure \ref{fig:fig1} in the document.
+
+\end{document}
