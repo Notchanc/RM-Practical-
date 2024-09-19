@@ -40,3 +40,42 @@ we can refer to Table \ref{tab:tab1}
 we can refer to Table \ref{tab:tab1} and Figure \ref{fig:fig1} in the document.
 
 \end{document}
+
+
+Q.2 Bibliography: Creating Bibliography in LaTeX
+
+
+\documentclass{article}
+\usepackage{url}
+\begin{document}
+\title{Bibliography of a META}
+\maketitle
+\section{Introduction}
+This is document to demonstrate manually created bibliography of a META.||||
+Referencing a book\cite{bookreference}.\\
+Referencing a Conference paper cite{conferencereference).\\
+Referencing a website cite {websitereference}.\\
+Reference an article\cite{articlereference}
+\section{Conclusion}
+The conclusion will be written here.
+\begin{thebibliography} {10}
+\bibitem{bookreference}
+Mark Zuckerberg, 2022.
+\textit{Meta: Mark Zuckerberg Plan For The Future.}
+PublishDrive
+\bibitem{conferencereference}
+Sokratis Trifinopoulos,
+"CORE MACHINE LEARNING"
+in\textit{Neurons to Neutrons: A Case Study in Mechanistic Interpretability}, 21st July
+2024, pp.01,05,icml.
+\bibitem{websitereference}
+Mark Zukerberg.
+"META | Social Metaverse Company"
+Available:\url{https://about.meta.com/},Accessed: July 30,2024.
+\bibitem{articlereference}
+Suurmond, R., van Rhee, H. and Hak, T.,
+"Introduction, comparison, and validation of Meta-Essentials: a free and simple tool for
+meta-analysis."
+\textit{Research synthesis methods}, vol.8(4), pp.537-553,2017.
+\end {thebibliography}
+\end{document}
