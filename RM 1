@@ -2,45 +2,47 @@ Practical No. 1
 
 Aim = Introduction to LaTex
 
-Q.1)(A) Create a report style having chapter, section and subsection, Automatic generation of table of contents, tex file to store the information that goes into the table of contents. Automatic numbering of section number.
+Q.1)(A) Create a report style having chapter, section and subsection, Automatic generation of table of contents,
+         tex file to store the information that goes into the table of contents. 
+          Automatic numbering of section number.
 
 Code:
 
-\documentclass[a4paper, 12pt] (report)
+\documentclass[a4paper, 12pt] {report}
 
 \begin{document}
 
 \title {\textbf{Heart Disease Prediction Using ML}}
 
-\author{Ms.RAMA KENE)
+\author{Ms.RAMA KENE}
 
-\date (July 2024}
+\date {July 2024}
 
 \maketitle
 
 \tableofcontents
 
-\chapter {Introduction)
+\chapter {Introduction}
 
-\section{Background)
+\section{Background}
 
 This project is all about heart disease prediction.
 
 heart disease are major cause of mortality.
 
-\section{Objective)
+\section{Objective}
 
 To create a prediction system for detecting heart disease.
 
 \chapter{Literature review}
 
-\section{Cardiovascular Disease and Risk Factor)
+\section{Cardiovascular Disease and Risk Factor}
 
 Cardiovascular diseases encompass a range of conditions affecting the heart and blood vessels, including coronary artery disease, stroke, and heart failure. Key risk factors
 
 identified in the literature include age, gender, hypertension, hyperlipidemia, diabetes mellitus, smoking, and family history.
 
-\section{Predictive Modeling in Cardiovascular Health)
+\section{Predictive Modeling in Cardiovascular Health}
 
 Previous studies have explored the application of machine learning algorithms such as logistic regression, decision trees, random forests, support vector machines, and neural networks in predicting heart disease.
 
@@ -75,7 +77,8 @@ insights for healthcare providers to implement preventive strategies and improve
 
 Q.1)
          
-(B) Creating an equation, writing multiple equations, Aligning multiple equations, creating matrices in Latex, label command, Cross referencing with ref command.
+(B) Creating an equation, writing multiple equations, Aligning multiple equations
+    , creating matrices in Latex, label command, Cross referencing with ref command.
 
 Code:
 
