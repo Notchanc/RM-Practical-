@@ -23,7 +23,7 @@ Roll No. &FName&LName \\
 \hline
 \end{tabular}
 \end{center}
-\caption{Student details)
+\caption{Student details}
 \label{tab:tab1}
 \end{table}
 we can refer to Table \ref{tab:tab1}
